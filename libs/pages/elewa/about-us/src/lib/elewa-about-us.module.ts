@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LayoutModule } from '@elewa-group/elements/layout';
-
+import { BannersModule } from '@elewa-group/features/components/banners';
 import { TeamMembersCarouselComponent } from './components/team-members-carousel/team-members-carousel.component';
 import { AboutUsCultureComponent } from './components/about-us-culture/about-us-culture.component';
 
@@ -21,7 +21,7 @@ import { CardsModule } from '@elewa-group/features/components/cards';
     CommonModule,
     LayoutModule,
     CardsModule,
-
+    BannersModule,
     AboutUsRoutingModule
   ],
   declarations: [
