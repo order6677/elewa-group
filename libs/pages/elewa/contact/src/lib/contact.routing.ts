@@ -5,14 +5,16 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 
 
 
+
+
 export const ELEWA_CONTACT_ROUTES: Route[] = [
 
-  { path: '', component: ContactPageComponent },
+  { path: '', component: ContactPageComponent},
 
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(ELEWA_CONTACT_ROUTES)],
-  exports: [RouterModule]
+  exports: [RouterModule,]
 })
 export class ContactRoutingModule { }
